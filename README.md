@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.github.com/kleinrein/milsa-buttons/master/docs/milsa.png" width="50">
+  <img src="https://raw.github.com/kleinrein/milsa-buttons/master/docs/milsa.png" width="100">
 </p>
 
 # milsa-buttons
