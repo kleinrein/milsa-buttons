@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="buttons.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,900,900i" rel="stylesheet">
+    <!-- Presentation styles -->
+    <style>
+        @keyframes intro-element {
+            from {
+                transform: rotate(0) scale(0);
+                opacity: 1;
+            }
+            50% {
+                transform: rotate(360deg) scale(1.1);
+                opacity: 1;
+            }
+            96% {
+                opacity: 1;
+            }
+            98% {
+                opacity: 0;
+            }
+            to {
+                transform: rotate(0) scale(0);
+            }
+        }
+        @keyframes intro-title {
+            from {
+                letter-spacing: 2rem;
+            }
+            to {
+                letter-spacing: 1.1rem;
+            }
+        }
+
+        ;
+
+        body {
+            font-family: 'Lato', sans-serif !important;
+            margin: 0;
+        }
+
+        button {
+            margin: 0 auto;
+            display: block;
+        }
+
+        .btn-wrapper {
+            margin: 8em auto 6em auto;
+        }
+
+        .btn-wrapper button {
+            margin: 0 auto;
+        }
+
+        hr {
+            margin-top: 3rem;
+            width: 50%;
+            opacity: .1;
+        }
+
+        h1,
+        h4 {
+            font-family: 'Lato', sans-serif !important;
+            text-align: center;
+        }
+
+        h4 {
+            font-family: 'Lato', sans-serif !important;
+            text-transform: uppercase;
+            color: #797979;
+            font-weight: 100;
+            letter-spacing: 6px;
+            margin-bottom: 3rem;
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+
+        img:first-of-type {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+
+        h1:first-of-type {
+            padding: 1rem 0;
+            font-size: 3.5rem;
+            color: #FFFFFF;
+            text-transform: lowercase;
+            text-shadow: 1px 0 0 rgba(0, 0, 0, .3), 1px 5px 0 #C6AFE0;
+            text-rendering: optimizeSpeed;
+            margin-bottom: 3em;
+            margin-top: 0;
+            animation-name: intro-title;
+            animation-duration: 1000s;
+            animation-timing-function: cubic-bezier(0,.8,.41,.9);
+            letter-spacing: 1.1rem;
+            opacity: .9;
+        }
+        .element {
+            margin: 0 auto;
+            margin-top: 1.5em;
+            display: block;
+            max-height: 100%;
+            width: 4.5em;
+            animation-name: intro-element;
+            animation-duration: 10s;
+            animation-timing-function: cubic-bezier(0,.8,.41,.9);
+            animation-iteration-count: infinite;
+        }
+
+    </style>
+</head>
+
+<body>
+    <img src="bg.svg">
+    <img class="element" src="milsa-element.svg">
+    <a href="vg.no">
+        <h1>milsa buttons</h1>
+    </a>
+
+
+    <div class="btn-wrapper">
+        <h4>Pear</h4>
+        <button class="btn--pear">Free download</button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Solaris</h4>
+        <button class="btn--solaris">Start your trial</button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Blazed</h4>
+        <button class="btn--blazed">Get started</button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Metoxy</h4>
+        <button class="btn--metoxy">Get started</button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Krabis</h4>
+        <button class="btn--krabis">Try it free</button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Trammy</h4>
+        <button class="btn--trammy">
+            <span>Sign up</span>
+        </button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Pimeo</h4>
+        <button class="btn--pimeo">Sign up</button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Deeper</h4>
+        <button class="btn--deeper">
+            <span>Click here</span>
+        </button>
+        <hr />
+    </div>
+
+    <div class="btn-wrapper">
+        <h4>Jolly</h4>
+        <button class="btn--jolly">
+            <span>Subscribe</span>
+        </button>
+        <hr />
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
