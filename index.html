@@ -101,7 +101,16 @@
             animation-duration: 1000s;
             animation-timing-function: cubic-bezier(0,.8,.41,.9);
             letter-spacing: 1.1rem;
-            opacity: .9;
+            opacity: .9;   
+        }
+        a {
+            transition: all 500ms cubic-bezier(0,.8,.41,.9);
+            text-decoration: none;
+            position: relative;
+            top: 0;
+        }
+        a:hover {
+            top: -.3em;
         }
         .element {
             margin: 0 auto;
@@ -121,7 +130,7 @@
 <body>
     <img src="bg.svg">
     <img class="element" src="milsa-element.svg">
-    <a href="vg.no">
+    <a href="https://github.com/kleinrein/milsa-buttons" title="Github">
         <h1>milsa buttons</h1>
     </a>
 

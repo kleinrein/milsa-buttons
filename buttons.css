@@ -1,31 +1,3 @@
-/* line 25, buttons.scss */
-.btn {
-  /*
-   ** SOLARIS **
-  */
-  /*
-   ** BLAZED **
-  */
-  /*
-   ** METOXY **
-  */
-  /*
-   ** KRABIS **
-  */
-  /*
-   ** TRAMMY **
-  */
-  /*
-   ** PIMEO **
-  */
-  /*
-   ** DEEPER **
-  */
-  /*
-   ** JOLLY **
-  */
-}
-/* line 28, buttons.scss */
 .btn--pear {
   /*
    ** PEAR **
@@ -47,7 +19,6 @@
   font-size: .9rem;
   position: relative;
 }
-/* line 42, buttons.scss */
 .btn--pear:after {
   content: "";
   position: absolute;
@@ -65,20 +36,20 @@
   transition: all 2s cubic-bezier(0.01, 0.85, 0.1, 1);
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
-/* line 53, buttons.scss */
 .btn--pear:hover:after {
   width: 100%;
   height: 100%;
   opacity: .1;
 }
-/* line 59, buttons.scss */
 .btn--pear:active:after {
   transition: all 3s cubic-bezier(0.01, 0.85, 0.1, 1);
   border-radius: 3em;
   transform: scale(0.95);
 }
-/* line 68, buttons.scss */
 .btn--solaris {
+  /*
+   ** SOLARIS **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -97,16 +68,16 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border: 1px solid #B9235D;
 }
-/* line 80, buttons.scss */
 .btn--solaris:hover {
   text-shadow: rgba(0, 0, 0, 0.1) 1px 1px, rgba(0, 0, 0, 0.1) 2px 2px, rgba(0, 0, 0, 0.1) 3px 3px, rgba(0, 0, 0, 0.1) 4px 4px, rgba(0, 0, 0, 0.1) 5px 5px;
 }
-/* line 87, buttons.scss */
 .btn--solaris:active {
   text-shadow: rgba(0, 0, 0, 0.1) 1px 1px, rgba(0, 0, 0, 0.1) 2px 2px, rgba(0, 0, 0, 0.1) 3px 3px;
 }
-/* line 96, buttons.scss */
 .btn--blazed {
+  /*
+   ** BLAZED **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -125,7 +96,6 @@
   transition: all 1.5s cubic-bezier(0.01, 0.85, 0.1, 1);
   position: relative;
 }
-/* line 108, buttons.scss */
 .btn--blazed:after {
   content: "";
   position: absolute;
@@ -148,27 +118,25 @@
   z-index: -1;
   border-radius: 2px;
 }
-/* line 123, buttons.scss */
 .btn--blazed:hover {
   color: white;
 }
-/* line 125, buttons.scss */
 .btn--blazed:hover:after {
   width: 100%;
   opacity: 1;
 }
-/* line 130, buttons.scss */
 .btn--blazed:active {
   box-shadow: 0 1em 1em rgba(68, 108, 179, 0.3);
   transform: translateY(-5px);
 }
-/* line 133, buttons.scss */
 .btn--blazed:active:after {
   transition: all 2.5s cubic-bezier(0.01, 0.85, 0.1, 1);
   transform: scale(1.05);
 }
-/* line 142, buttons.scss */
 .btn--metoxy {
+  /*
+   ** METOXY **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -187,7 +155,6 @@
   overflow: hidden;
   transition: all 850ms cubic-bezier(0.01, 0.85, 0.1, 1);
 }
-/* line 154, buttons.scss */
 .btn--metoxy:after {
   content: "";
   position: absolute;
@@ -205,28 +172,26 @@
   transition: all 1s cubic-bezier(0.01, 0.85, 0.1, 1);
   z-index: 2;
 }
-/* line 164, buttons.scss */
 .btn--metoxy:hover {
   box-shadow: 0 15px 25px rgba(0, 242, 254, 0.6);
   text-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
-/* line 167, buttons.scss */
 .btn--metoxy:hover:after {
   opacity: .1;
   height: 100%;
   width: 100%;
   transform: rotate(180deg);
 }
-/* line 174, buttons.scss */
 .btn--metoxy:active {
   box-shadow: 0 5px 25px rgba(0, 242, 254, 0.6);
 }
-/* line 176, buttons.scss */
 .btn--metoxy:active:after {
   transform: rotate(0);
 }
-/* line 184, buttons.scss */
 .btn--krabis {
+  /*
+   ** KRABIS **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -243,7 +208,6 @@
   font-weight: 600;
   transition: all 700ms cubic-bezier(0, 0.96, 0.44, 0.97);
 }
-/* line 194, buttons.scss */
 .btn--krabis:after {
   transition: all 500ms cubic-bezier(0, 0.96, 0.44, 0.97);
   content: "";
@@ -261,23 +225,22 @@
   display: block;
   z-index: -1;
 }
-/* line 211, buttons.scss */
 .btn--krabis:hover {
   color: #FFFFFF;
   background-image: linear-gradient(to bottom, #FBC2EB, #A6C1EE);
   box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.1);
 }
-/* line 215, buttons.scss */
 .btn--krabis:hover:after {
   transform: scale(1.01);
   opacity: .9;
 }
-/* line 220, buttons.scss */
 .btn--krabis:active {
   box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.01);
 }
-/* line 227, buttons.scss */
 .btn--trammy {
+  /*
+   ** TRAMMY **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -297,12 +260,10 @@
   transition: all 3s cubic-bezier(0.01, 0.91, 0.13, 1);
   position: relative;
 }
-/* line 240, buttons.scss */
 .btn--trammy span {
   z-index: 2;
   position: relative;
 }
-/* line 244, buttons.scss */
 .btn--trammy:after {
   content: "";
   position: absolute;
@@ -320,21 +281,20 @@
   border-radius: 10rem;
   opacity: .5;
 }
-/* line 254, buttons.scss */
 .btn--trammy:hover {
   background-position: 100px;
   text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
-/* line 257, buttons.scss */
 .btn--trammy:hover:after {
   opacity: .1;
 }
-/* line 262, buttons.scss */
 .btn--trammy:active:after {
   opacity: .9;
 }
-/* line 270, buttons.scss */
 .btn--pimeo {
+  /*
+   ** PIMEO **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -356,18 +316,18 @@
   border: 1px solid #8A00DA;
   transition: all 1050ms cubic-bezier(0.01, 0.85, 0.1, 1);
 }
-/* line 285, buttons.scss */
 .btn--pimeo:hover {
   transform: translateY(-5px);
   box-shadow: 0 20px 25px 0 rgba(183, 56, 255, 0.5);
 }
-/* line 289, buttons.scss */
 .btn--pimeo:active {
   transform: translateY(5px);
   box-shadow: 0 10px 5px 0 rgba(183, 56, 255, 0.5);
 }
-/* line 297, buttons.scss */
 .btn--deeper {
+  /*
+   ** DEEPER **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -387,12 +347,10 @@
   position: relative;
   transition: all 200ms ease-in-out;
 }
-/* line 310, buttons.scss */
 .btn--deeper span {
   position: relative;
   z-index: 2;
 }
-/* line 314, buttons.scss */
 .btn--deeper:after {
   content: "";
   position: absolute;
@@ -412,12 +370,10 @@
   transform: scale(0.6);
   border: 1px solid transparent;
 }
-/* line 326, buttons.scss */
 .btn--deeper:hover {
   box-shadow: 0 5px 15px 1px #5772E7;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
-/* line 329, buttons.scss */
 .btn--deeper:hover:after {
   background-image: linear-gradient(0deg, #4360E2 0%, #6581FF 100%);
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.25);
@@ -425,16 +381,16 @@
   opacity: 1;
   border: 1px solid #5772E7;
 }
-/* line 337, buttons.scss */
 .btn--deeper:active {
   box-shadow: 0 2px 10px 1px #5772E7;
 }
-/* line 339, buttons.scss */
 .btn--deeper:active:after {
   opacity: .8;
 }
-/* line 348, buttons.scss */
 .btn--jolly {
+  /*
+   ** JOLLY **
+  */
   border: 0;
   padding: 1rem 2rem;
   font-size: 1.1rem;
@@ -455,12 +411,10 @@
   overflow: hidden;
   transition: all 400ms cubic-bezier(0.01, 0.85, 0.1, 1);
 }
-/* line 362, buttons.scss */
 .btn--jolly span {
   position: relative;
   z-index: 3;
 }
-/* line 366, buttons.scss */
 .btn--jolly:after {
   content: "";
   position: absolute;
@@ -479,7 +433,6 @@
   transition: all 1.2s cubic-bezier(0.01, 0.85, 0.1, 1);
   z-index: 2;
 }
-/* line 377, buttons.scss */
 .btn--jolly:before {
   content: "";
   position: absolute;
@@ -492,16 +445,13 @@
   z-index: 1;
   opacity: .1;
 }
-/* line 383, buttons.scss */
 .btn--jolly:hover:after {
   left: 110%;
 }
-/* line 386, buttons.scss */
 .btn--jolly:hover:before {
   background-color: #0396FF;
   opacity: .2;
 }
-/* line 392, buttons.scss */
 .btn--jolly:active:after {
   left: 0;
   width: 2.25em;

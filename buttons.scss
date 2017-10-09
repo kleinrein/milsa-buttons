@@ -21,10 +21,7 @@
     }
 }
 
-
-.btn {
-
-    
+.btn {    
     &--pear {
         /*
          ** PEAR **
@@ -62,10 +59,10 @@
             transform: scale(0.95);
         }
     }
-    /*
-     ** SOLARIS **
-    */
     &--solaris {
+        /*
+         ** SOLARIS **
+        */
         @include btn();
         text-transform: uppercase;
         border-radius: 10rem;
@@ -90,10 +87,10 @@
             rgba(0, 0, 0, 0.1) 3px 3px;
         }
     }
-    /*
-     ** BLAZED **
-    */
     &--blazed {
+        /*
+         ** BLAZED **
+        */
         @include btn();
         text-transform: uppercase;
         border: 1px solid #446CB3;
@@ -136,10 +133,10 @@
             }
         }
     }
-    /*
-     ** METOXY **
-    */
     &--metoxy {
+        /*
+         ** METOXY **
+        */
         @include btn();
         text-transform: uppercase;
         background: linear-gradient(to right, #52A9FE, #00F2FE);
@@ -178,10 +175,10 @@
             }
         }
     }
-    /*
-     ** KRABIS **
-    */
     &--krabis {
+        /*
+         ** KRABIS **
+        */
         @include btn();
         color: #6E6E6E;
         border-radius: 25px;
@@ -221,10 +218,10 @@
             box-shadow: inset 1px 1px 10px rgba(0, 0, 0, .01);
         }
     }
-    /*
-     ** TRAMMY **
-    */
     &--trammy {
+        /*
+         ** TRAMMY **
+        */
         @include btn();
         background: linear-gradient(to top, #764BA2, #667EEA);
         color: #FFFFFF;
@@ -264,10 +261,10 @@
             }
         }
     }
-    /*
-     ** PIMEO **
-    */
     &--pimeo {
+        /*
+         ** PIMEO **
+        */
         @include btn();
         background-image: -webkit-linear-gradient(bottom, #8A00DA 0%, #B739FF 99%);
         background-image: -o-linear-gradient(bottom, #8A00DA 0%, #B739FF 99%);
@@ -291,10 +288,10 @@
             box-shadow: 0 10px 5px 0 rgba(183, 56, 255, 0.50);
         }
     }
-    /*
-     ** DEEPER **
-    */
     &--deeper {
+        /*
+         ** DEEPER **
+        */
         @include btn();
         background-color: #5772E7;
         text-transform: uppercase;
@@ -342,10 +339,10 @@
         }
     }
 
-    /*
-     ** JOLLY **
-    */
     &--jolly {
+        /*
+         ** JOLLY **
+        */
         @include btn();
         background: linear-gradient(to bottom, #ABDCFF, #0396FF);
         text-transform: uppercase;
