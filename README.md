@@ -6,9 +6,12 @@
 Satisfactory call to action buttons
 
 ## Usage
-Check the buttons.scss or button.css file and copy the styles you like.
+Check the buttons.scss or button.css in the **docs** folder file and copy the styles you like.
 _Just remember to remove 'outline: none' for accessibility reasons._
 
 ### Markup
 Some of the buttons contains span elements to achieve certain hover effects.
 You can check out docs/index.html or live on <https://kleinrein.github.io/milsa-buttons/>.
+
+## License
+[The MIT License (MIT)](https://opensource.org/licenses/MIT)

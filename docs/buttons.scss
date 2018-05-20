@@ -21,6 +21,10 @@
     }
 }
 
+@mixin disabled {
+    cursor: not-allowed;
+}
+
 .btn {
     &--pear {
         /*
@@ -57,6 +61,19 @@
             transition: all 3s cubic-bezier(.01, .85, .10, 1);
             border-radius: 3em;
             transform: scale(0.95);
+        }
+        &:disabled {
+            @include disabled();
+            &:before {
+                @include pseudo(true);
+                border-radius: 5px;
+                background-color: rgba(0, 0, 0, .2);
+            }
+            &:hover {
+                &:after {
+                    display: none;
+                }
+            }
         }
     }
     &--solaris {
@@ -419,6 +436,32 @@
             transform: scale(1.045, 0.9);
             transform-origin: bottom;
             box-shadow: 0 20px 25px lighten(#C88334, 45%);
+        }
+    }
+    &--dank {
+        /*
+         ** DANK **
+        */
+        @include btn();
+        padding: 1.5em 3.25em;
+        background-image: linear-gradient(0deg, #43DA4D 42%, #FFDC42 100%);
+        border: 3px solid #32B43A;
+        border-bottom: 6px solid #32B43A;
+        box-shadow: 0 10px 20px 0 rgba(67,218,77,0.50);
+        border-radius: 10px;
+        color: #FFFFFF;
+        font-weight: 600;
+        letter-spacing: 2.67px;
+        text-shadow: 0 5px 7px rgba(0,0,0,0.10);
+        transition: all 350ms cubic-bezier(.01, .85, .10, 1);
+        &:hover {
+            transform: skew(15deg) scale(1, 1.01);
+            transform-origin: right;
+            box-shadow: 0 15px 25px 0 rgba(67,218,77,0.50);
+        }
+        &:active {
+            transform-origin: right;
+            transform: skew(-15deg);
         }
     }
 }
